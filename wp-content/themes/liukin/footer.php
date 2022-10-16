@@ -1,66 +1,63 @@
-<?php
-/**
- * The template for displaying the footer
- *
- * Contains the closing of the #content div and all content after
- *
- * @package WordPress
- * @subpackage Twenty_Sixteen
- * @since Twenty Sixteen 1.0
- */
-?>
-
-		</div><!-- .site-content -->
-
-		<footer id="colophon" class="site-footer" role="contentinfo">
-			<?php if ( has_nav_menu( 'primary' ) ) : ?>
-				<nav class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Primary Menu', 'twentysixteen' ); ?>">
-					<?php
-						wp_nav_menu( array(
-							'theme_location' => 'primary',
-							'menu_class'     => 'primary-menu',
-						 ) );
-					?>
-				</nav><!-- .main-navigation -->
-			<?php endif; ?>
-
-			<?php if ( has_nav_menu( 'social' ) ) : ?>
-				<nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Social Links Menu', 'twentysixteen' ); ?>">
-					<?php
-						wp_nav_menu( array(
-							'theme_location' => 'social',
-							'menu_class'     => 'social-links-menu',
-							'depth'          => 1,
-							'link_before'    => '<span class="screen-reader-text">',
-							'link_after'     => '</span>',
-						) );
-					?>
-				</nav><!-- .social-navigation -->
-			<?php endif; ?>
-
-			<div class="site-info">
-				<?php
-					/**
-					 * Fires before the twentysixteen footer text for footer customization.
-					 *
-					 * @since Twenty Sixteen 1.0
-					 */
-					do_action( 'twentysixteen_credits' );
-				?>
-				<span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
-				<?php
-				if ( function_exists( 'the_privacy_policy_link' ) ) {
-					the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
-				}
-				?>
-				<a href="<?php echo esc_url( __( 'https://www.classicpress.net/', 'twentysixteen' ) ); ?>" class="imprint">
-					<?php printf( __( 'Proudly powered by %s', 'twentysixteen' ), 'ClassicPress' ); ?>
-				</a>
-			</div><!-- .site-info -->
-		</footer><!-- .site-footer -->
-	</div><!-- .site-inner -->
-</div><!-- .site -->
-
-<?php wp_footer(); ?>
-</body>
+<div class="container-fluid py-4">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <ul class="srf-menu-items">
+                        <li><a href="/nosotros/">Nosotros</a></li>
+                        <li><a href="/creditos/">Créditos</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="srf-menu-items">
+                        <li class="titfooter">Legal</li>
+                        <li><a href="/politica-de-privacidad/">Política de Privacidad</a>
+                        </li>
+                    </ul>
+                    <ul class="srf-menu-items">
+                        <li class="titfooter">Comunidad</li>
+                        <li><a href="/colabora/">Colabora</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="srf-menu-items">
+                     	<li><a href="/contacto/">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="srf-menu-items">
+                        <li class="titfooter">Síguenos</li>
+                        <li><a href="" rel="nofollow"><img class="socialf" src="https://res.cloudinary.com/pcsolucion/image/upload/v1549357186/twitter_footer.svg" width="16" height="16" alt="Twitter"/>Twitter</a></li>
+                        <li><a href="" rel="nofollow"><img class="socialf" src="https://res.cloudinary.com/pcsolucion/image/upload/v1549357490/facebook_footer.svg" width="16" height="16" alt="Facebook"/>Facebook</a></li>
+                        <li><a href="" rel="nofollow"><img class="socialf" src="https://res.cloudinary.com/pcsolucion/image/upload/v1565791488/Pcsolucion-LiukinTheme/instagram.svg" width="16" height="16" alt="Canal de Telegram"/>Instagram</a></li>
+                        <li><a href="" rel="nofollow"><img class="socialf" src="https://res.cloudinary.com/pcsolucion/image/upload/v1549357647/youtube_footer.svg" width="16" height="16" alt="Canal de Youtube"/>YouTube</a></li>
+                        <li><a href="" rel="nofollow"><img class="socialf" src="https://res.cloudinary.com/pcsolucion/image/upload/v1549982896/telegram_noticias_tecnologia.svg" width="16" height="16" alt="Canal de Telegram"/>Telegram</a></li>
+                        <li><a href="" rel="nofollow"><img class="socialf" src="https://res.cloudinary.com/pcsolucion/image/upload/v1565982170/Pcsolucion-LiukinTheme/canaldiscord.svg" width="16" height="16" alt="Canal de Telegram"/>Discord</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="footerf">
+            			
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </div>
+    <footer id="colophon" class="site-footer">
+	    <div class="site-footer__wrap container">
+	        <div class="space-between-content">
+                <div class="footer-copyright">
+                    <span>© 2013 - <?php echo date("Y"); ?>.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <?php wp_footer();?>
+    </body>
 </html>
