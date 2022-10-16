@@ -71,7 +71,7 @@ TABLE OF CONTENTS:
 
 .wp-core-ui .button.button-large,
 .wp-core-ui .button-group.button-large .button {
-	height: 30px;
+	height: 45px;
     line-height: 28px;
     padding: 0 12px 2px;
 }
@@ -235,6 +235,7 @@ TABLE OF CONTENTS:
 	border-color: #0073aa #006799 #006799;
 	box-shadow: 0 1px 0 #006799;
 	color: #fff;
+	width: 100%;
 	text-decoration: none;
 	text-shadow: 0 -1px 1px #006799,
 		1px 0 1px #006799,

@@ -447,23 +447,6 @@ body.language-chooser {
 	word-wrap: normal !important;
 }
 
-.spinner {
-	background: url(../images/spinner.gif) no-repeat;
-	background-size: 20px 20px;
-	visibility: hidden;
-	opacity: 0.7;
-	filter: alpha(opacity=70);
-	width: 20px;
-	height: 20px;
-	margin: 2px 5px 0;
-}
-
-.step .spinner {
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 15px;
-}
-
 .button.hide-if-no-js,
 .hide-if-no-js {
 	display: none;

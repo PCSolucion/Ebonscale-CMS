@@ -911,12 +911,7 @@ span.required,
 
 #publishing-action {
 	text-align: left;
-	float: left;
 	line-height: 23px;
-}
-
-#publishing-action .spinner {
-	float: right;
 }
 
 #misc-publishing-actions {
@@ -2232,25 +2227,6 @@ h1.nav-tab-wrapper, /* Back-compat for pre-4.4 */
 /*------------------------------------------------------------------------------
   26.0 - Misc
 ------------------------------------------------------------------------------*/
-
-.spinner {
-	background: url(../images/spinner.gif) no-repeat;
-	background-size: 20px 20px;
-	display: inline-block;
-	visibility: hidden;
-	float: left;
-	vertical-align: middle;
-	opacity: 0.7;
-	filter: alpha(opacity=70);
-	width: 20px;
-	height: 20px;
-	margin: 4px 10px 0;
-}
-
-.spinner.is-active,
-.loading-content .spinner {
-	visibility: visible;
-}
 
 #template > div {
 	margin-left: 16em;
