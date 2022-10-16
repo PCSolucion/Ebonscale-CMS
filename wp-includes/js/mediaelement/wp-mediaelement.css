@@ -29,7 +29,7 @@
 }
 
 .mejs-controls .mejs-time-rail .mejs-time-current {
-	background: #0073aa;
+	background: #028fa3;
 }
 
 .mejs-controls .mejs-time-rail .mejs-time-total,
@@ -128,7 +128,7 @@ video.wp-video-shortcode,
 }
 
 .wp-playlist {
-	border: 1px solid #ccc;
+	border: 1px solid #028fa3;
 	padding: 10px;
 	margin: 12px 0 18px;
 	font-size: 14px;
@@ -230,7 +230,7 @@ video.wp-video-shortcode,
 	position: relative;
 	cursor: pointer;
 	padding: 0 3px;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #028fa3;
 }
 
 .wp-playlist-item:last-child {
@@ -247,7 +247,7 @@ video.wp-video-shortcode,
 
 .wp-playlist-playing {
 	font-weight: bold;
-	background: #f7f7f7;
+	background: #028fa3;
 }
 
 .wp-playlist-light .wp-playlist-playing {

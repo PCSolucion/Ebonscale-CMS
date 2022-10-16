@@ -73,7 +73,7 @@ ul.add-menu-item-tabs li {
 }
 
 .is-submenu {
-	color: #555d66; /* #fafafa background */
+	color: blackd66; /* #fafafa background */
 	font-style: italic;
 	font-weight: 400;
 	margin-right: 4px;
@@ -255,7 +255,7 @@ ul.add-menu-item-tabs li {
 
 .locations-edit-menu-link {
 	padding-left: 3px;
-	border-left: 1px solid #ccc;
+	border-left: 1px solid #028fa3;
 }
 
 #menu-management .inside {
@@ -591,7 +591,7 @@ body.menu-max-depth-11 { min-width: 1280px !important; }
 	height: auto;
 	margin: 12px 0 12px -10px;
 	padding: 0;
-	color: #0073aa;
+	color: #028fa3;
 	text-decoration: underline;
 	font-size: 12px;
 	line-height: 18px;

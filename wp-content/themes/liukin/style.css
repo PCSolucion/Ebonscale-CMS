@@ -65,7 +65,7 @@ body {
 	margin-top:13px;
 }
 .btn-search svg {
-	fill:#ccc;
+	fill:#028fa3;
 	width:30px;
 	height:30px;
 	transition:all .2s ease-out,color .2s ease-out;
@@ -182,7 +182,7 @@ input[type="search"] {
     border-top: 2px solid #008ec2 !important;
     padding-bottom: 9px;
     padding-left: 10px;
-    background-color: #f7f7f7 !important;
+    background-color: #028fa3 !important;
 }
 .sidebar1 h5{
 	padding-left: 5px;
@@ -204,7 +204,7 @@ input[type="search"] {
 	margin-bottom:20px;
 	margin-top:10px;
 	font-weight:700;
-	color:#555;
+	color:black;
 }
 .entry-content p{
 	text-align:justify;
@@ -282,7 +282,7 @@ blockquote {
 	text-indent:23px;
 }
 blockquote cite {
-	color:#f1f1f1;
+	color:#303032;
 	font-size:14px;
 	display:block;
 	margin-top:5px;
@@ -357,7 +357,7 @@ blockquote p {
 }
 .container-fluid .col-md-8 .footerf {
 	padding:10px 0;
-	color:#ccc;
+	color:#028fa3;
 	border:1px solid #52565a;
 	border-radius:4px;
 	text-align:center;
@@ -365,11 +365,11 @@ blockquote p {
 	margin:25px 0 35px;
 }
 .footerf a {
-	color:#ccc !important;
+	color:#028fa3 !important;
 	font-size:11px;
 }
 .footerf span {
-	color:#ccc !important;
+	color:#028fa3 !important;
 	font-size:11px;
 	text-align:center;
 }

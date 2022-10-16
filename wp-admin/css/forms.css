@@ -70,7 +70,7 @@ input[type="checkbox"],
 input[type="radio"] {
 	border: 1px solid #b4b9be;
 	background: #fff;
-	color: #555;
+	color: black;
 	clear: none;
 	cursor: pointer;
 	display: inline-block;
@@ -464,7 +464,7 @@ fieldset label,
 #pass-strength-result {
 	background-color: #eee;
 	border: 1px solid #ddd;
-	color: #23282d;
+	color: #272727;
 	margin: -2px 5px 5px 1px;
 	padding: 3px 5px;
 	text-align: center;
@@ -604,7 +604,7 @@ ul#add-to-blog-users {
 
 /* Colors for the tags autocomplete. */
 .wp-tags-autocomplete .ui-state-focus {
-	background-color: #0073aa;
+	background-color: #028fa3;
 	color: #fff;
 }
 
@@ -635,7 +635,7 @@ ul#add-to-blog-users {
 
 .form-table th,
 .form-wrap label {
-	color: #23282d;
+	color: #272727;
 	font-weight: 400;
 	text-shadow: none;
 	vertical-align: baseline;
@@ -886,7 +886,7 @@ table.form-table td .updated p {
 
 .pressthis-js-toggle .dashicons {
 	margin: 5px 8px 6px 7px;
-	color: #555d66;
+	color: blackd66;
 }
 
 /*------------------------------------------------------------------------------

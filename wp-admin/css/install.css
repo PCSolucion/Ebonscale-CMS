@@ -1,5 +1,5 @@
 html {
-	background: #f1f1f1;
+	background: #303032;
 	margin: 0 20px;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 a {
-	color: #0073aa;
+	color: #028fa3;
 }
 
 a:hover,
@@ -255,7 +255,7 @@ submit {
 #pass-strength-result {
 	background-color: #eee;
 	border: 1px solid #ddd;
-	color: #23282d;
+	color: #272727;
 	margin: -2px 5px 5px 0px;
 	padding: 3px 5px;
 	text-align: center;

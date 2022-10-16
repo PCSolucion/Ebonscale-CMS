@@ -158,7 +158,7 @@
 .wp-pointer-bottom .wp-pointer-arrow {
 	bottom: 0;
 	border-width: 13px 13px 0 13px;
-	border-top-color: #ccc;
+	border-top-color: #028fa3;
 }
 
 .wp-pointer-bottom .wp-pointer-arrow-inner {
@@ -175,7 +175,7 @@
 .wp-pointer-left .wp-pointer-arrow {
 	left: 0;
 	border-width: 13px 13px 13px 0;
-	border-right-color: #ccc;
+	border-right-color: #028fa3;
 }
 
 /* rtl:ignore */
@@ -193,7 +193,7 @@
 .wp-pointer-right .wp-pointer-arrow {
 	right: 0;
 	border-width: 13px 0 13px 13px;
-	border-left-color: #ccc;
+	border-left-color: #028fa3;
 }
 
 /* rtl:ignore */

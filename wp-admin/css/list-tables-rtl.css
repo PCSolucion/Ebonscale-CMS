@@ -86,14 +86,14 @@
 .column-response .post-com-count-approved:focus .comment-count-approved,
 .column-comments .post-com-count-approved:hover .comment-count-approved,
 .column-comments .post-com-count-approved:focus .comment-count-approved {
-	background: #0073aa;
+	background: #028fa3;
 }
 
 .column-response .post-com-count-approved:hover:after,
 .column-response .post-com-count-approved:focus:after,
 .column-comments .post-com-count-approved:hover:after,
 .column-comments .post-com-count-approved:focus:after {
-	border-top-color: #0073aa;
+	border-top-color: #028fa3;
 }
 
 /* @todo: consider to use a single rule for these counters and the admin menu counters. */
@@ -123,7 +123,7 @@
 .commentlist li {
 	padding: 1em 1em .2em;
 	margin: 0;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #028fa3;
 }
 
 .commentlist li li {
@@ -138,7 +138,7 @@
 
 #submitted-on,
 .submitted-on {
-	color: #555d66;
+	color: blackd66;
 }
 
 /* reply to comments */
@@ -654,7 +654,7 @@ th.asc a:focus span.sorting-indicator {
 	height: 28px;
 	margin-top: 3px;
 	cursor: default;
-	color: #555;
+	color: black;
 }
 
 .tablenav .no-pages,
@@ -672,7 +672,7 @@ th.asc a:focus span.sorting-indicator {
 .tablenav-pages-navspan {
 	display: inline-block;
 	min-width: 17px;
-	border: 1px solid #ccc; /* same color as buttons border */
+	border: 1px solid #028fa3; /* same color as buttons border */
 	padding: 3px 5px 7px;
 	background: #e5e5e5;
 	font-size: 16px;
@@ -684,7 +684,7 @@ th.asc a:focus span.sorting-indicator {
 .tablenav-pages-navspan {
 	height: 16px;
 	border-color: #ddd; /* same as disabled buttons */
-	background: #f7f7f7; /* same as disabled buttons */
+	background: #028fa3; /* same as disabled buttons */
 	color: #a0a5aa; /* same as disabled buttons */
 }
 
@@ -730,7 +730,7 @@ classes exist in paginate_links() but not seen in list table output. */
 .tablenav .next,
 .tablenav .prev {
 	border-color: transparent;
-	color: #0073aa;
+	color: #028fa3;
 }
 
 .tablenav .next:hover,
@@ -781,7 +781,7 @@ classes exist in paginate_links() but not seen in list table output. */
 }
 
 .view-switch a.current:before {
-	color: #0073aa;
+	color: #028fa3;
 }
 
 .view-switch .view-list:before {

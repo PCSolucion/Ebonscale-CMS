@@ -455,9 +455,9 @@ div.revisions-controls > .wp-slider > .ui-slider-handle {
 
 .wp-slider .ui-slider-handle,
 .wp-slider .ui-slider-handle.focus {
-	background: #f7f7f7;
-	border: 1px solid #ccc;
-	box-shadow: 0 1px 0 #cccccc;
+	background: #028fa3;
+	border: 1px solid #028fa3;
+	box-shadow: 0 1px 0 #028fa3ccc;
 }
 
 .wp-slider .ui-slider-handle:hover,
@@ -480,7 +480,7 @@ div.revisions-controls > .wp-slider > .ui-slider-handle {
 	position: absolute;
 	top: 2px;
 	left: 2px;
-	color: #555;
+	color: black;
 	content: "\f229";
 	font: normal 18px/1 dashicons;
 	speak: none;
@@ -490,7 +490,7 @@ div.revisions-controls > .wp-slider > .ui-slider-handle {
 
 .wp-slider .ui-slider-handle:hover:before,
 .wp-slider .ui-slider-handle.ui-state-hover:before {
-	color: #23282d;
+	color: #272727;
 }
 
 .wp-slider .ui-slider-handle.from-handle:before,

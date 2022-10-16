@@ -29,7 +29,7 @@
 #customize-controls .theme-location-set,
 #customize-controls .control-section .accordion-section-title:focus .menu-in-location,
 #customize-controls .control-section .accordion-section-title:hover .menu-in-location {
-	color: #555;
+	color: black;
 }
 
 /* The `edit-menu` and `create-menu` buttons also use the `button-link` class. */
@@ -193,7 +193,7 @@
 }
 
 .wp-customizer .menu-settings .menu-theme-locations {
-	border-top: 1px solid #ccc;
+	border-top: 1px solid #028fa3;
 }
 
 .wp-customizer .menu-settings {
@@ -233,14 +233,14 @@
 }
 
 #customize-controls .customize-info.open.active-menu-screen-options .customize-help-toggle {
-	color: #555;
+	color: black;
 }
 
 /* Screen Options */
 .customize-screen-options-toggle {
 	background: none;
 	border: none;
-	color: #555;
+	color: black;
 	cursor: pointer;
 	margin: 0;
 	padding: 20px;
@@ -264,7 +264,7 @@
 #customize-controls .customize-info.open.active-menu-screen-options .customize-help-toggle:hover,
 #customize-controls .customize-info.open.active-menu-screen-options .customize-help-toggle:active,
 #customize-controls .customize-info.open.active-menu-screen-options .customize-help-toggle:focus {
-	color: #0073aa;
+	color: #028fa3;
 }
 
 .customize-screen-options-toggle:focus,
@@ -532,12 +532,12 @@
 #available-menu-items .accordion-section-title:hover .toggle-indicator:before,
 #available-menu-items .button-link:hover .toggle-indicator:before,
 #available-menu-items .button-link:focus .toggle-indicator:before {
-	color: #23282d;
+	color: #272727;
 }
 
 #available-menu-items .open .accordion-section-title .toggle-indicator:before {
 	content: "\f142";
-	color: #23282d;
+	color: #272727;
 }
 
 #available-menu-items .available-menu-items-list {
@@ -571,7 +571,7 @@
 
 #available-menu-items .cannot-expand .accordion-section-title .no-items {
 	float: right;
-	color: #555d66;
+	color: blackd66;
 	font-weight: 400;
 	margin-left: 5px;
 }
@@ -651,7 +651,7 @@
 }
 
 #available-menu-items .menu-item-handle .item-add:focus {
-	color: #23282d;
+	color: #272727;
 }
 
 #available-menu-items .item-add:before {
@@ -830,13 +830,13 @@ li.assigned-to-menu-location .add-new-menu-item {
 .menu-item-handle:hover {
 	position: relative;
 	z-index: 10;
-	color: #0073aa;
+	color: #028fa3;
 }
 
 .menu-item-handle:hover .item-type,
 .menu-item-handle:hover .item-edit,
 #available-menu-items .menu-item-handle:hover .item-add {
-	color: #0073aa;
+	color: #028fa3;
 }
 
 .menu-item-edit-active .menu-item-handle {

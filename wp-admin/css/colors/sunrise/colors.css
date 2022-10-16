@@ -4,12 +4,12 @@
  * highlights/shadows, based on a base color.
  */
 body {
-  background: #f1f1f1;
+  background: #303032;
 }
 
 /* Links */
 a {
-  color: #0073aa;
+  color: #028fa3;
 }
 
 a:hover, a:active, a:focus {
@@ -158,8 +158,8 @@ input[type=radio]:checked:before {
 .about-wrap h2 .nav-tab-active,
 .nav-tab-active,
 .nav-tab-active:hover {
-  background-color: #f1f1f1;
-  border-bottom-color: #f1f1f1;
+  background-color: #303032;
+  border-bottom-color: #303032;
 }
 
 /* Admin Menu: submenu */
@@ -216,7 +216,7 @@ input[type=radio]:checked:before {
 
 ul#adminmenu a.wp-has-current-submenu:after,
 ul#adminmenu > li.current > a.current:after {
-  border-right-color: #f1f1f1;
+  border-right-color: #303032;
 }
 
 #adminmenu li.current a.menu-top,

@@ -9,7 +9,7 @@ body {
 
 /* Links */
 a {
-  color: #0073aa;
+  color: #028fa3;
 }
 
 a:hover, a:active, a:focus {
@@ -151,7 +151,7 @@ input[type=radio]:checked:before {
 
 #adminmenu li.menu-top:hover div.wp-menu-image:before,
 #adminmenu li.opensub > a.menu-top div.wp-menu-image:before {
-  color: #ccc;
+  color: #028fa3;
 }
 
 /* Active tabs use a bottom border color that matches the page background color. */
@@ -235,7 +235,7 @@ ul#adminmenu > li.current > a.current:after {
 #adminmenu li a:focus div.wp-menu-image:before,
 #adminmenu li.opensub div.wp-menu-image:before,
 .ie8 #adminmenu li.opensub div.wp-menu-image:before {
-  color: #ccc;
+  color: #028fa3;
 }
 
 /* Admin Menu: bubble */
@@ -302,7 +302,7 @@ ul#adminmenu > li.current > a.current:after {
 #wpadminbar:not(.mobile) li:hover .ab-item:before,
 #wpadminbar:not(.mobile) li:hover .ab-item:after,
 #wpadminbar:not(.mobile) li:hover #adminbarsearch:before {
-  color: #ccc;
+  color: #028fa3;
 }
 
 /* Admin Bar: submenu */
@@ -312,7 +312,7 @@ ul#adminmenu > li.current > a.current:after {
 
 #wpadminbar .quicklinks .menupop ul.ab-sub-secondary,
 #wpadminbar .quicklinks .menupop ul.ab-sub-secondary .ab-submenu {
-  background: #f7f7f7;
+  background: #028fa3;
 }
 
 #wpadminbar .ab-submenu .ab-item,
@@ -369,13 +369,13 @@ ul#adminmenu > li.current > a.current:after {
 
 #wpadminbar > #wp-toolbar > #wp-admin-bar-top-secondary > #wp-admin-bar-search #adminbarsearch input.adminbar-input:focus {
   color: #333;
-  background: #f7f7f7;
+  background: #028fa3;
 }
 
 /* Admin Bar: my account */
 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img {
-  border-color: #f7f7f7;
-  background-color: #f7f7f7;
+  border-color: #028fa3;
+  background-color: #028fa3;
 }
 
 #wpadminbar #wp-admin-bar-user-info .display-name {

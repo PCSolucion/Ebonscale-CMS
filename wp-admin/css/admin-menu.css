@@ -3,7 +3,7 @@
 #adminmenu,
 #adminmenu .wp-submenu {
 	width: 160px;
-	background-color: #23282d;
+	background-color: #272727;
 }
 
 #adminmenuback {
@@ -251,7 +251,7 @@
 #adminmenu .wp-menu-arrow,
 #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head,
 #adminmenu .wp-menu-arrow div {
-	background: #0073aa;
+	background: #028fa3;
 	color: #fff;
 }
 
@@ -439,7 +439,7 @@ ul#adminmenu > li.current > a.current:after {
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-right-color: #f1f1f1;
+	border-right-color: #303032;
 	top: 50%;
 	margin-top: -8px;
 }

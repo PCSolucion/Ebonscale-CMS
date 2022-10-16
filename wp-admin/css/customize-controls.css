@@ -61,7 +61,7 @@ body {
 }
 
 #customize-controls .description {
-	color: #555d66;
+	color: blackd66;
 }
 
 #customize-save-button-wrapper {
@@ -80,7 +80,7 @@ body:not(.ready) #customize-save-button-wrapper .save {
 }
 
 #customize-save-button-wrapper .save:focus, #publish-settings:focus {
-	box-shadow: 0 1px 0 #0073aa, 0 0 2px 1px #33b3db; /* This is default box shadow for focus */
+	box-shadow: 0 1px 0 #028fa3, 0 0 2px 1px #33b3db; /* This is default box shadow for focus */
 }
 
 #customize-save-button-wrapper .save.has-next-sibling {
@@ -411,7 +411,7 @@ body.trashing #publish-settings {
 
 #customize-controls .customize-info .accordion-section-title {
 	background: #fff;
-	color: #555d66;
+	color: blackd66;
 	border-left: none;
 	border-right: none;
 	border-bottom: none;
@@ -464,7 +464,7 @@ body.trashing #publish-settings {
 	box-shadow: none;
 	-webkit-appearance: none;
 	background: transparent;
-	color: #555d66;
+	color: blackd66;
 	border: none;
 }
 
@@ -477,14 +477,14 @@ body.trashing #publish-settings {
 #customize-controls .customize-info.open .customize-help-toggle,
 #customize-controls .customize-info .customize-help-toggle:focus,
 #customize-controls .customize-info .customize-help-toggle:hover {
-	color: #0073aa;
+	color: #028fa3;
 }
 
 #customize-controls .customize-info .customize-panel-description,
 #customize-controls .customize-info .customize-section-description,
 #customize-outer-theme-controls .customize-info .customize-section-description,
 #customize-controls .no-widget-areas-rendered-notice {
-	color: #555d66;
+	color: blackd66;
 	display: none;
 	background: #fff;
 	padding: 12px 15px;
@@ -529,7 +529,7 @@ body.trashing #publish-settings {
 
 #customize-theme-controls .accordion-section-title,
 #customize-outer-theme-controls .accordion-section-title {
-	color: #555d66;
+	color: blackd66;
 	background-color: #fff;
 	border-bottom: 1px solid #ddd;
 	border-left: 4px solid #fff;
@@ -539,7 +539,7 @@ body.trashing #publish-settings {
 }
 
 #customize-controls #customize-theme-controls .customize-themes-panel .accordion-section-title {
-	color: #555;
+	color: black;
 	background-color: #fff;
 	border-left: 4px solid #fff;
 }
@@ -552,7 +552,7 @@ body.trashing #publish-settings {
 
 #customize-theme-controls .accordion-section-content,
 #customize-outer-theme-controls .accordion-section-content {
-	color: #555d66;
+	color: blackd66;
 	background: transparent;
 }
 
@@ -560,9 +560,9 @@ body.trashing #publish-settings {
 #customize-controls .control-section .accordion-section-title:hover,
 #customize-controls .control-section.open .accordion-section-title,
 #customize-controls .control-section .accordion-section-title:focus {
-	color: #0073aa;
+	color: #028fa3;
 	background: #f3f3f5;
-	border-left-color: #0073aa;
+	border-left-color: #028fa3;
 }
 
 #accordion-section-themes + .control-section {
@@ -584,7 +584,7 @@ body.trashing #publish-settings {
 #customize-outer-theme-controls .control-section .accordion-section-title:hover:after,
 #customize-outer-theme-controls .control-section.open .accordion-section-title:after,
 #customize-outer-theme-controls .control-section .accordion-section-title:focus:after {
-	color: #0073aa;
+	color: #028fa3;
 }
 
 #customize-theme-controls .control-section.open {
@@ -752,7 +752,7 @@ h3.customize-section-title {
 	padding: 10px 10px 12px 14px;
 	margin: 0;
 	line-height: 21px;
-	color: #555d66;
+	color: blackd66;
 }
 
 .accordion-sub-container.control-panel-content {
@@ -830,7 +830,7 @@ h3.customize-section-title {
 #customize-controls .panel-meta.customize-info .accordion-section-title:hover,
 #customize-controls .cannot-expand:hover .accordion-section-title {
 	background: #fff;
-	color: #555d66;
+	color: blackd66;
 	border-left-color: #fff;
 }
 
@@ -839,8 +839,8 @@ h3.customize-section-title {
 .customize-controls-preview-toggle:focus,
 .customize-controls-preview-toggle:hover {
 	background: #fff;
-	color: #0073aa;
-	border-top-color: #0073aa;
+	color: #028fa3;
+	border-top-color: #028fa3;
 	outline: none;
 	box-shadow: none;
 }
@@ -850,9 +850,9 @@ h3.customize-section-title {
 .customize-panel-back:focus,
 .customize-section-back:hover,
 .customize-section-back:focus {
-	color: #0073aa;
+	color: #028fa3;
 	background: #f3f3f5;
-	border-left-color: #0073aa;
+	border-left-color: #028fa3;
 	outline: none;
 	box-shadow: none;
 }
@@ -901,7 +901,7 @@ p.customize-section-description {
 }
 
 .section-description-buttons button.button-link {
-	color: #0073aa;
+	color: #028fa3;
 	text-decoration: underline;
 }
 
@@ -1313,7 +1313,7 @@ p.customize-section-description {
 }
 
 .customize-control-color .dropdown .dropdown-content {
-	background-color: #555d66;
+	background-color: blackd66;
 	border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
@@ -1391,7 +1391,7 @@ p.customize-section-description {
 	display: none;
 	position: absolute;
 	width: 100%;
-	color: #555d66;
+	color: blackd66;
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
@@ -1448,7 +1448,7 @@ p.customize-section-description {
 .customize-control-header .uploaded .header-view .close {
 	font-size: 20px;
 	color: #fff;
-	background: #555d66;
+	background: blackd66;
 	background: rgba(0, 0, 0, 0.5);
 	position: absolute;
 	top: 10px;
@@ -1646,7 +1646,7 @@ p.customize-section-description {
 #customize-theme-controls .control-panel-themes > .accordion-section-title {
 	cursor: default;
 	background: #fff;
-	color: #555d66;
+	color: blackd66;
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
 	border-left: none;
@@ -1840,7 +1840,7 @@ p.customize-section-description {
 
 .control-panel-themes .filter-themes-count .themes-displayed {
 	font-weight: 600;
-	color: #555d66;
+	color: blackd66;
 }
 
 .customize-themes-notifications {
@@ -1865,7 +1865,7 @@ p.customize-section-description {
 	margin: 15px 0 0 0;
 	line-height: 16px;
 	border-bottom: 1px solid #ddd;
-	color: #555d66;
+	color: blackd66;
 }
 
 .control-panel-themes .customize-themes-section-title {
@@ -1883,7 +1883,7 @@ p.customize-section-description {
 	text-align: left;
 	font-size: 14px;
 	font-weight: 600;
-	color: #555d66;
+	color: blackd66;
 	text-shadow: none;
 }
 
@@ -1898,8 +1898,8 @@ p.customize-section-description {
 
 .control-panel-themes .customize-themes-section-title:focus,
 .control-panel-themes .customize-themes-section-title:hover {
-	border-left-color: #0073aa;
-	color: #0073aa;
+	border-left-color: #028fa3;
+	color: #028fa3;
 	background: #f5f5f5;
 }
 
@@ -1912,7 +1912,7 @@ p.customize-section-description {
 	width: 18px;
 	height: 18px;
 	border-radius: 100%;
-	border: 1px solid #ccc;
+	border: 1px solid #028fa3;
 	background: #fff;
 }
 
@@ -1927,12 +1927,12 @@ p.customize-section-description {
 	position: absolute;
 	top: 9px;
 	right: 15px;
-	background: #0073aa;
+	background: #028fa3;
 	color: #fff;
 }
 
 .control-panel-themes .customize-themes-section-title.selected {
-	color: #0073aa;
+	color: #028fa3;
 }
 
 #customize-theme-controls .themes.accordion-section-content {
@@ -2199,9 +2199,9 @@ p.customize-section-description {
 
 	.wp-customizer .showing-themes .control-panel-themes .customize-themes-mobile-back:hover,
 	.wp-customizer .showing-themes .control-panel-themes .customize-themes-mobile-back:focus {
-		color: #0073aa;
+		color: #028fa3;
 		background: #f3f3f5;
-		border-left-color: #0073aa;
+		border-left-color: #028fa3;
 		outline: none;
 		box-shadow: none;
 	}
@@ -2302,13 +2302,13 @@ p.customize-section-description {
 .wp-customizer .theme-overlay .theme-header .left:focus,
 .wp-customizer .theme-overlay .theme-header .left:hover {
 	background: #fff;
-	border-bottom: 4px solid #0073aa;
-	color: #0073aa;
+	border-bottom: 4px solid #028fa3;
+	color: #028fa3;
 }
 
 .wp-customizer .theme-overlay .theme-header .close:focus:before,
 .wp-customizer .theme-overlay .theme-header .close:hover:before {
-	color: #0073aa;
+	color: #028fa3;
 }
 
 .wp-customizer .theme-overlay .theme-header button.disabled,
@@ -2316,7 +2316,7 @@ p.customize-section-description {
 .wp-customizer .theme-overlay .theme-header button.disabled:focus {
 	border-bottom: none;
 	background: transparent;
-	color: #ccc;
+	color: #028fa3;
 }
 
 /* Small Screens */
@@ -2348,7 +2348,7 @@ body.cheatin {
 body.cheatin h1 {
 	border-bottom: 1px solid #ddd;
 	clear: both;
-	color: #555d66;
+	color: blackd66;
 	font-size: 24px;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 	margin: 30px 0 0 0;
@@ -2815,7 +2815,7 @@ body.adding-widget .add-new-widget:before,
 		background: #eee;
 		border: 0;
 		border-right: 1px solid #ddd;
-		color: #555d66;
+		color: blackd66;
 		cursor: pointer;
 		transition: color .1s ease-in-out, background .1s ease-in-out;
 	}
@@ -2894,7 +2894,7 @@ body.adding-widget .add-new-widget:before,
 		padding: 9px 10px 12px 14px;
 		margin: 0;
 		line-height: 24px;
-		color: #555d66;
+		color: blackd66;
 		display: block;
 		overflow: hidden;
 		white-space: nowrap;

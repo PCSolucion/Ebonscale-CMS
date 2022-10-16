@@ -30,7 +30,7 @@
 
 .customize-control .widget-top:hover .widget-action,
 .customize-control .widget-action:focus {
-	color: #23282d;
+	color: #272727;
 }
 
 .customize-control-widget_form:not(.widget-rendered) .widget-top {
@@ -163,7 +163,7 @@
 	position: relative;
 	margin: 0;
 	padding: 13px 15px 15px 42px;
-	color: #555;
+	color: black;
 	border-top: 1px solid #eee;
 	cursor: pointer;
 	-webkit-user-select: none;
@@ -242,9 +242,9 @@
 #available-widgets .widget-tpl:hover,
 #available-widgets .widget-tpl.selected {
 	background: #f3f3f5;
-	border-bottom-color: #ccc;
-	color: #0073aa;
-	border-left: 4px solid #0073aa;
+	border-bottom-color: #028fa3;
+	color: #028fa3;
+	border-left: 4px solid #028fa3;
 }
 
 #customize-controls .widget-title h3 {

@@ -193,10 +193,10 @@
 	border-radius: 3px;
 	white-space: nowrap;
 	box-sizing: border-box;
-	color: #555;
-	border-color: #cccccc;
-	background: #f7f7f7;
-	box-shadow: 0 1px 0 #cccccc;
+	color: black;
+	border-color: #028fa3ccc;
+	background: #028fa3;
+	box-shadow: 0 1px 0 #028fa3ccc;
  	vertical-align: top;
 }
 
@@ -216,7 +216,7 @@
 .ui-button:focus {
 	background: #fafafa;
 	border-color: #999;
-	color: #23282d;
+	color: #272727;
 }
 
 .ui-button:focus {
@@ -235,7 +235,7 @@
 .ui-button:disabled {
 	color: #a0a5aa !important;
 	border-color: #ddd !important;
-	background: #f7f7f7 !important;
+	background: #028fa3 !important;
 	box-shadow: none !important;
 	text-shadow: 0 1px 0 #fff !important;
 	cursor: default;

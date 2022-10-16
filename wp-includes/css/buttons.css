@@ -120,10 +120,10 @@ TABLE OF CONTENTS:
 
 .wp-core-ui .button,
 .wp-core-ui .button-secondary {
-	color: #555;
-	border-color: #cccccc;
-	background: #f7f7f7;
-	box-shadow: 0 1px 0 #cccccc;
+	color: black;
+	border-color: #028fa3ccc;
+	background: #028fa3;
+	box-shadow: 0 1px 0 #028fa3ccc;
  	vertical-align: top;
 }
 
@@ -139,7 +139,7 @@ TABLE OF CONTENTS:
 .wp-core-ui .button-secondary:focus {
 	background: #fafafa;
 	border-color: #999;
-	color: #23282d;
+	color: #272727;
 }
 
 .wp-core-ui .button.focus,
@@ -175,7 +175,7 @@ TABLE OF CONTENTS:
 .wp-core-ui .button-disabled {
 	color: #a0a5aa !important;
 	border-color: #ddd !important;
-	background: #f7f7f7 !important;
+	background: #028fa3 !important;
 	box-shadow: none !important;
 	text-shadow: 0 1px 0 #fff !important;
 	cursor: default;
@@ -194,7 +194,7 @@ TABLE OF CONTENTS:
 	cursor: pointer;
 	text-align: left;
 	/* Mimics the default link style in common.css */
-	color: #0073aa;
+	color: #028fa3;
 	text-decoration: underline;
 	transition-property: border, background, color;
 	transition-duration: .05s;
@@ -231,8 +231,8 @@ TABLE OF CONTENTS:
 ---------------------------------------------------------------------------- */
 
 .wp-core-ui .button-primary {
-	background: #0085ba;
-	border-color: #0073aa #006799 #006799;
+	background: #00a8cb;
+	border-color: #028fa3 #006799 #006799;
 	box-shadow: 0 1px 0 #006799;
 	color: #fff;
 	width: 100%;
@@ -254,7 +254,7 @@ TABLE OF CONTENTS:
 
 .wp-core-ui .button-primary.focus,
 .wp-core-ui .button-primary:focus {
-	box-shadow: 0 1px 0 #0073aa,
+	box-shadow: 0 1px 0 #028fa3,
 		0 0 2px 1px #33b3db;
 }
 
@@ -262,7 +262,7 @@ TABLE OF CONTENTS:
 .wp-core-ui .button-primary.active:hover,
 .wp-core-ui .button-primary.active:focus,
 .wp-core-ui .button-primary:active {
-	background: #0073aa;
+	background: #028fa3;
 	border-color: #006799;
 	box-shadow: inset 0 2px 0 #006799;
 	vertical-align: top;

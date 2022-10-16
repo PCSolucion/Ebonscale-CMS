@@ -15,10 +15,10 @@
 }
 
 .wp-color-result-text {
-	background: #f7f7f7;
+	background: #028fa3;
 	border-radius: 2px 0 0 2px;
-	border-right: 1px solid #ccc;
-	color: #555;
+	border-right: 1px solid #028fa3;
+	color: black;
 	display: block;
 	line-height: 22px;
 	padding: 0 6px;
@@ -29,12 +29,12 @@
 .wp-color-result:focus {
 	background: #fafafa;
 	border-color: #999;
-	color: #23282d;
+	color: #272727;
 }
 
 .wp-color-result:hover:after,
 .wp-color-result:focus:after {
-	color: #23282d;
+	color: #272727;
 	border-color: #a0a5aa;
 	border-right: 1px solid #999;
 }
@@ -74,7 +74,7 @@
 }
 
 .wp-picker-container .iris-square-slider .ui-slider-handle:focus {
-	background-color: #555
+	background-color: black
 }
 
 .wp-picker-container .iris-picker {

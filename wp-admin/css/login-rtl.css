@@ -9,7 +9,7 @@ body {
 }
 
 body {
-	background: #f1f1f1;
+	background: #303032;
 	min-width: 0;
 	color: #444;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -18,7 +18,7 @@ body {
 }
 
 a {
-	color: #0073aa;
+	color: #028fa3;
 	transition-property: border, background, color;
 	transition-duration: .05s;
 	transition-timing-function: ease-in-out;
@@ -197,7 +197,7 @@ p {
 .login #nav a,
 .login #backtoblog a {
 	text-decoration: none;
-	color: #555d66;
+	color: blackd66;
 }
 
 .login #nav a:hover,

@@ -166,7 +166,7 @@ body.js .theme-browser.search-loading {
 	top: 35%;
 	left: 20%;
 	right: 20%;
-	background: #23282d;
+	background: #272727;
 	background: rgba(0,0,0,0.7);
 	color: #fff;
 	font-size: 15px;
@@ -203,7 +203,7 @@ body.js .theme-browser.search-loading {
  * The currently active theme
  */
 .theme-browser .theme.active .theme-name {
-	background: #23282d;
+	background: #272727;
 	color: #fff;
 	padding-left: 110px;
 	font-weight: 300;
@@ -243,7 +243,7 @@ body.js .theme-browser.search-loading {
 }
 
 .theme-browser .theme .theme-author {
-	background: #23282d;
+	background: #272727;
 	color: #eee;
 	display: none;
 	font-size: 14px;
@@ -329,14 +329,14 @@ body.js .theme-browser.search-loading {
 .theme-browser .theme.add-new-theme a:hover span:after,
 .theme-browser .theme.add-new-theme a:focus span:after {
 	background: #fff;
-	color: #0073aa;
+	color: #028fa3;
 }
 
 .theme-browser .theme.add-new-theme a:hover:after,
 .theme-browser .theme.add-new-theme a:focus:after {
 	border-color: transparent;
 	color: #fff;
-	background: #0073aa;
+	background: #028fa3;
 	content: "";
 }
 
@@ -368,7 +368,7 @@ body.js .theme-browser.search-loading {
 	left: 0;
 	top: 0;
 	bottom: 0;
-	background: #f1f1f1;
+	background: #303032;
 	background: rgba( 238, 238, 238, 0.9 );
 	z-index: 10000; /* Over WP Pointers. */
 }
@@ -428,7 +428,7 @@ body.js .theme-browser.search-loading {
 .theme-overlay .theme-header .left:focus,
 .theme-overlay .theme-header .left:hover {
 	background: #ddd;
-	border-color: #ccc;
+	border-color: #028fa3;
 	color: #000;
 }
 
@@ -448,7 +448,7 @@ body.js .theme-browser.search-loading {
 .theme-overlay .theme-header .right.disabled,
 .theme-overlay .theme-header .left.disabled:hover,
 .theme-overlay .theme-header .right.disabled:hover {
-	color: #ccc;
+	color: #028fa3;
 	background: inherit;
 	cursor: inherit;
 }
@@ -603,7 +603,7 @@ body.folded .theme-browser ~ .theme-overlay .theme-wrap {
 
 /* Other screenshots, shown small and square */
 .theme-overlay .screenshot.thumb {
-	background: #ccc;
+	background: #028fa3;
 	border: 1px solid #eee;
 	float: none;
 	display: inline-block;
@@ -667,7 +667,7 @@ body.folded .theme-browser ~ .theme-overlay .theme-wrap {
 }
 
 .theme-overlay .theme-name {
-	color: #23282d;
+	color: #272727;
 	font-size: 32px;
 	font-weight: 100;
 	margin: 10px 0 0;
@@ -698,7 +698,7 @@ body.folded .theme-browser ~ .theme-overlay .theme-wrap {
 }
 
 .theme-overlay .theme-description {
-	color: #555;
+	color: black;
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 1.5;
@@ -998,7 +998,7 @@ body.folded .theme-browser ~ .theme-overlay .theme-wrap {
 
 /* Already installed theme */
 .theme-browser .theme .theme-installed {
-	background: #0073aa;
+	background: #028fa3;
 }
 
 .theme-browser .theme .notice-success p:before {
@@ -1071,7 +1071,7 @@ body.folded .theme-browser ~ .theme-overlay .theme-wrap {
 
 .upload-theme .install-help,
 .upload-plugin .install-help {
-	color: #555d66; /* #f1f1f1 background */
+	color: blackd66; /* #303032 background */
 	font-size: 18px;
 	font-style: normal;
 	margin: 0;
@@ -1225,7 +1225,7 @@ div#custom-background-image img {
 .background-position-control input[type="radio"]:focus ~ .button {
 	border-color: #5b9dd9;
 	box-shadow: inset 0 2px 5px -3px rgba( 0, 0, 0, .5 ), 0 0 3px rgba( 0, 115, 170, .8 );
-	color: #23282d;
+	color: #272727;
 }
 
 .background-position-control .background-position-center-icon,
@@ -1244,7 +1244,7 @@ div#custom-background-image img {
 }
 
 .background-position-control .background-position-center-icon:before {
-	background-color: #555;
+	background-color: black;
 	border-radius: 50%;
 	content: "";
 	height: 12px;
@@ -1253,7 +1253,7 @@ div#custom-background-image img {
 
 .background-position-control .button:hover .background-position-center-icon:before,
 .background-position-control input[type="radio"]:focus ~ .button .background-position-center-icon:before {
-	background-color: #23282d;
+	background-color: #272727;
 }
 
 .background-position-control .button-group {
@@ -1278,7 +1278,7 @@ div#custom-background-image img {
 }
 
 .background-position-control .button-group:last-child .button {
-	box-shadow: 0 1px 0 #ccc;
+	box-shadow: 0 1px 0 #028fa3;
 }
 
 .background-position-control .button-group > label {
@@ -1484,7 +1484,7 @@ body.full-overlay-active {
 .theme-install-overlay .next-theme:hover,
 .theme-install-overlay .next-theme:focus {
 	background: #ddd;
-	border-color: #ccc;
+	border-color: #028fa3;
 	color: #000;
 	outline: none;
 	box-shadow: none;
@@ -1559,7 +1559,7 @@ body.full-overlay-active {
 
 .wp-core-ui .wp-full-overlay .collapse-sidebar:hover,
 .wp-core-ui .wp-full-overlay .collapse-sidebar:focus {
-	color: #0073aa;
+	color: #028fa3;
 }
 
 .wp-full-overlay .collapse-sidebar-arrow,
@@ -1633,7 +1633,7 @@ body.full-overlay-active {
 }
 
 .wp-full-overlay-main {
-	background-color: #f1f1f1;
+	background-color: #303032;
 }
 
 .expanded .wp-full-overlay-footer {
@@ -1700,7 +1700,7 @@ body.full-overlay-active {
 
 .wp-full-overlay-footer .devices button:focus,
 .wp-full-overlay-footer .devices button.active:hover {
-	border-bottom-color: #0073aa;
+	border-bottom-color: #028fa3;
 }
 
 .wp-full-overlay-footer .devices button.active:before {
@@ -1709,7 +1709,7 @@ body.full-overlay-active {
 
 .wp-full-overlay-footer .devices button:hover:before,
 .wp-full-overlay-footer .devices button:focus:before {
-	color: #0073aa;
+	color: #028fa3;
 }
 
 .wp-full-overlay-footer .devices .preview-desktop:before {
@@ -1840,7 +1840,7 @@ body.full-overlay-active {
 .install-theme-info .theme-screenshot {
 	margin: 15px 0;
 	width: 258px;
-	border: 1px solid #ccc;
+	border: 1px solid #028fa3;
 }
 
 .install-theme-info .theme-details {
@@ -1879,11 +1879,11 @@ body.full-overlay-active {
 .theme-install-overlay .wp-full-overlay-main {
 	position: absolute;
 	z-index: 0;
-	background-color: #f1f1f1;
+	background-color: #303032;
 }
 
 .customize-loading #customize-container {
-	background-color: #f1f1f1;
+	background-color: #303032;
 }
 
 #customize-preview.wp-full-overlay-main:before,

@@ -49,8 +49,8 @@ div#media-upload-header {
 	padding-left: 6px;
 	padding-right: 6px;
 	border: 1px solid #ddd;
-	border-bottom-color: #f1f1f1;
-	background-color: #f1f1f1;
+	border-bottom-color: #303032;
+	background-color: #303032;
 	color: #000;
 }
 
@@ -218,8 +218,8 @@ span.required {
 
 #media-upload .tablenav-pages a {
 	min-width: 17px;
-	border: 1px solid #ccc;
-	background: #f7f7f7;
+	border: 1px solid #028fa3;
+	background: #028fa3;
 }
 
 #filter .tablenav select {

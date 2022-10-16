@@ -173,7 +173,7 @@
 	height: 100%;
 	margin-top: -22px;
 	border-radius: 22px;
-	background-color: #0073aa;
+	background-color: #028fa3;
 	box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
 }
 
@@ -526,20 +526,20 @@ border color while dragging a file over the uploader drop area */
 .media-frame.mode-grid .selected.attachment:focus,
 .media-frame.mode-grid .attachment.details:focus {
 	box-shadow:
-		inset 0 0 2px 3px #f1f1f1,
+		inset 0 0 2px 3px #303032,
 		inset 0 0 0 7px #5b9dd9;
 	outline: none;
 }
 
 .media-frame.mode-grid .selected.attachment {
 	box-shadow:
-		inset 0 0 0 5px #f1f1f1,
-		inset 0 0 0 7px #ccc;
+		inset 0 0 0 5px #303032,
+		inset 0 0 0 7px #028fa3;
 }
 
 .media-frame.mode-grid .attachment.details {
 	box-shadow:
-		inset 0 0 0 3px #f1f1f1,
+		inset 0 0 0 3px #303032,
 		inset 0 0 0 7px #1e8cbe;
 }
 
@@ -675,7 +675,7 @@ border color while dragging a file over the uploader drop area */
 .edit-attachment-frame .edit-media-header .left:focus,
 .edit-attachment-frame .edit-media-header .right:focus {
 	background: #ddd;
-	border-color: #ccc;
+	border-color: #028fa3;
 	color: #000;
 	outline: none;
 	box-shadow: none;
@@ -700,7 +700,7 @@ border color while dragging a file over the uploader drop area */
 .edit-attachment-frame .edit-media-header .right.disabled,
 .edit-attachment-frame .edit-media-header .left.disabled:hover,
 .edit-attachment-frame .edit-media-header .right.disabled:hover {
-	color: #ccc;
+	color: #028fa3;
 	background: inherit;
 	cursor: default;
 	pointer-events: none;
@@ -943,7 +943,7 @@ border color while dragging a file over the uploader drop area */
 	height: 32px;
 	margin: 0 0 0 8px;
 	padding: 0;
-	background: #f1f1f1;
+	background: #303032;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	line-height: 16px;
@@ -957,7 +957,7 @@ border color while dragging a file over the uploader drop area */
 }
 
 .imgedit-menu .button.disabled {
-	border-color: #ccc;
+	border-color: #028fa3;
 	background-color: #ddd;
 	color: #72777c;
 	filter: alpha(opacity=50);
@@ -1050,7 +1050,7 @@ border color while dragging a file over the uploader drop area */
 
 #poststuff .imgedit-group-top .button-link {
 	text-decoration: none;
-	color: #23282d;
+	color: #272727;
 }
 
 .imgedit-applyto .imgedit-label {

@@ -2935,7 +2935,7 @@ function _default_wp_die_handler( $message, $title = '', $args = array() ) {
 	<title><?php echo $title ?></title>
 	<style type="text/css">
 		html {
-			background: #f1f1f1;
+			background: #303032;
 		}
 		body {
 			background: #fff;
@@ -2972,7 +2972,7 @@ function _default_wp_die_handler( $message, $title = '', $args = array() ) {
 			font-size: 14px ;
 		}
 		a {
-			color: #0073aa;
+			color: #028fa3;
 		}
 		a:hover,
 		a:active {
@@ -2989,9 +2989,9 @@ function _default_wp_die_handler( $message, $title = '', $args = array() ) {
 			outline: none;
 		}
 		.button {
-			background: #f7f7f7;
-			border: 1px solid #ccc;
-			color: #555;
+			background: #028fa3;
+			border: 1px solid #028fa3;
+			color: black;
 			display: inline-block;
 			text-decoration: none;
 			font-size: 13px;
@@ -3008,8 +3008,8 @@ function _default_wp_die_handler( $message, $title = '', $args = array() ) {
 			-moz-box-sizing:    border-box;
 			box-sizing:         border-box;
 
-			-webkit-box-shadow: 0 1px 0 #ccc;
-			box-shadow: 0 1px 0 #ccc;
+			-webkit-box-shadow: 0 1px 0 #028fa3;
+			box-shadow: 0 1px 0 #028fa3;
 		 	vertical-align: top;
 		}
 
@@ -3023,7 +3023,7 @@ function _default_wp_die_handler( $message, $title = '', $args = array() ) {
 		.button:focus {
 			background: #fafafa;
 			border-color: #999;
-			color: #23282d;
+			color: #272727;
 		}
 
 		.button:focus  {
