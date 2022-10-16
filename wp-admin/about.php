@@ -20,13 +20,12 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 		<h1><?php _e( 'Welcome to ClassicPress!' ); ?></h1>
 
 		<p class="about-text">
-			<?php printf( __( 'Version %s' ), classicpress_version() ); ?>
 			<?php classicpress_dev_version_info(); ?>
 		</p>
 		<p class="about-text">
 			<?php printf(
 				/* translators: link to "business-focused CMS" article */
-				__( 'Thank you for using ClassicPress, the <a href="%s">CMS for Creators</a>.' ),
+				__( 'Thank you for using EbonScale, the <a href="%s">CMS for Creators</a>.' ),
 				'https://link.classicpress.net/the-cms-for-creators'
 			); ?>
 			<br />
@@ -42,16 +41,6 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 		</h2>
 
 		<div class="changelog point-releases about-wrap-content">
-
-			<?php if ( get_locale() !== 'en_US' ) { ?>
-				<p class="about-inline-notice notice-warning">
-					<?php printf(
-						/* translators: link to learn more about translating ClassicPress */
-						__( 'Help us translate ClassicPress into your language! <a href="%s">Learn more</a>.' ),
-						'https://www.classicpress.net/translating-classicpress/'
-					); ?>
-				</p>
-			<?php } ?>
 
 			<h3><?php _e( 'About ClassicPress' ); ?></h3>
 
@@ -100,11 +89,7 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 				); ?>
 			</p>
 			<h3><?php _e( 'ClassicPress changelogs' ); ?></h3>
-			<h4><?php printf(
-				/* translators: current ClassicPress version */
-				__( 'ClassicPress 1.0.1 - %s' ),
-				classicpress_version()
-			); ?></h4>
+			
 			<p>
 				<?php printf(
 					/* translators: link to ClassicPress release announcements subforum */
