@@ -287,23 +287,6 @@ function update_right_now_message() {
 			$msg .= '<a href="' . network_admin_url( 'update-core.php' ) . '" class="button" aria-describedby="wp-version">' . sprintf( __( 'Update to %s' ), $cur->current ? $cur->current : __( 'Latest' ) ) . '</a> ';
 	}
 
-	/* translators: 1: version number, 2: theme name */
-	$content = __( 'ClassicPress %1$s running %2$s theme.' );
-
-	/**
-	 * Filters the text displayed in the 'At a Glance' dashboard widget.
-	 *
-	 * Prior to WP-3.8.0, the widget was named 'Right Now'.
-	 *
-	 * @since WP-4.4.0
-	 *
-	 * @param string $content Default text.
-	 */
-	$content = apply_filters( 'update_right_now_text', $content );
-
-	$msg .= sprintf( '<span id="wp-version">' . $content . '</span>', classicpress_version(), $theme_name );
-
-	echo "<p id='wp-version-message'>$msg</p>";
 }
 
 /**

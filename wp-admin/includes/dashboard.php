@@ -34,12 +34,6 @@ function wp_dashboard_setup() {
 		wp_add_dashboard_widget( 'dashboard_activity', __( 'Activity' ), 'wp_dashboard_site_activity' );
 	}
 
-	// QuickPress Widget
-	if ( is_blog_admin() && current_user_can( get_post_type_object( 'post' )->cap->create_posts ) ) {
-		$quick_draft_title = sprintf( '<span class="hide-if-no-js">%1$s</span> <span class="hide-if-js">%2$s</span>', __( 'Quick Draft' ), __( 'Your Recent Drafts' ) );
-		wp_add_dashboard_widget( 'dashboard_quick_press', $quick_draft_title, 'wp_dashboard_quick_press' );
-	}
-
 	if ( is_network_admin() ) {
 
 		/**
@@ -384,15 +378,6 @@ function wp_network_dashboard_right_now() {
 
 	/* translators: 1: text indicating the number of sites on the network, 2: text indicating the number of users on the network */
 	$sentence = sprintf( __( 'You have %1$s and %2$s.' ), $blog_text, $user_text );
-
-	if ( $actions ) {
-		echo '<ul class="subsubsub">';
-		foreach ( $actions as $class => $action ) {
-			 $actions[ $class ] = "\t<li class='$class'>$action";
-		}
-		echo implode( " |</li>\n", $actions ) . "</li>\n";
-		echo '</ul>';
-	}
 ?>
 	<br class="clear" />
 

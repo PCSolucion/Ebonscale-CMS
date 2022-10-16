@@ -31,7 +31,7 @@ global $hook_suffix;
 	?>
 	<p id="footer-left" class="alignleft">
 		<?php
-		$text = sprintf( __( 'Thank you for creating with <a href="%s">ClassicPress</a>.' ), 'https://www.classicpress.net/' );
+		$text = sprintf( __( 'Thank you for creating with <a href="%s">Ebonscale</a>.' ), 'https://www.ebonscale.pc-solucion.es/' );
 		/**
 		 * Filters the "Thank you" text displayed in the admin footer.
 		 *
@@ -40,23 +40,6 @@ global $hook_suffix;
 		 * @param string $text The content that will be printed.
 		 */
 		echo apply_filters( 'admin_footer_text', '<span id="footer-thankyou">' . $text . '</span>' );
-		?>
-	</p>
-	<p id="footer-upgrade" class="alignright">
-		<?php
-		/**
-		 * Filters the version/update text displayed in the admin footer.
-		 *
-		 * ClassicPress prints the current version and update information,
-		 * using core_update_footer() at priority 10.
-		 *
-		 * @since WP-2.3.0
-		 *
-		 * @see core_update_footer()
-		 *
-		 * @param string $content The content that will be printed.
-		 */
-		echo apply_filters( 'update_footer', '' );
 		?>
 	</p>
 	<div class="clear"></div>

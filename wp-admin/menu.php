@@ -248,8 +248,6 @@ $menu[75] = array( __('Tools'), 'edit_posts', 'tools.php', '', 'menu-top menu-ic
 	$submenu['tools.php'][15] = array( __('Export'), 'export', 'export.php' );
 	if ( is_multisite() && !is_main_site() )
 		$submenu['tools.php'][25] = array( __('Delete Site'), 'delete_site', 'ms-delete-site.php' );
-	if ( ! is_multisite() && defined('WP_ALLOW_MULTISITE') && WP_ALLOW_MULTISITE )
-		$submenu['tools.php'][50] = array(__('Network Setup'), 'setup_network', 'network.php');
 
 $change_notice = '';
 if ( current_user_can( 'manage_privacy_options' ) && WP_Privacy_Policy_Content::text_change_check() ) {
@@ -266,11 +264,6 @@ $menu[80]                               = array( sprintf( __( 'Settings %s' ), $
 	$submenu['options-general.php'][40] = array( __( 'Permalinks' ), 'manage_options', 'options-permalink.php' );
 	// translators: %s is the update notification bubble, if updates are available.
 	$submenu['options-general.php'][45] = array( sprintf( __( 'Privacy %s' ), $change_notice ), 'manage_privacy_options', 'privacy.php' );
-
-$menu[85] = array( __('Security'), 'manage_options', 'security.php', '', 'menu-top menu-icon-shield', 'menu-security', 'dashicons-shield' );
-	$submenu['security.php'][10] = array( _x( 'ClassicPress', 'security screen' ), 'manage_options', 'security.php' );
-
-$_wp_last_utility_menu = 85; // The index of the last top-level menu in the utility menu group
 
 $menu[99] = array( '', 'read', 'separator-last', '', 'wp-menu-separator' );
 
